@@ -21,12 +21,14 @@ export const Home: FC = () => {
               assumenda harum, et commodi, placeat molestias
               suscipit doloremque voluptatum distinctio rem ea necessitatibus?
             </p>
+
             <button>Lets work together</button>
           </section>
         </div>
 
         <div className={styles.col2}>
-
+          <div className={styles.dots}></div>
+          <div className={styles.blueBlock}></div>
         </div>
       </header>
     </div>
