@@ -12,17 +12,22 @@ export const Home: FC = () => {
           <section>
             <h1>
               Cesar Rivera <br />
-              Full-Stack <br />
-              Web Developer
+              <span>Full-Stack</span> <br />
+              <span>Web Developer</span>
             </h1>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae repellat
-              assumenda harum, et commodi, placeat molestias
-              suscipit doloremque voluptatum distinctio rem ea necessitatibus?
+              My name is César Rivera from Ecuador.
+              I came into Software Development looking
+              for personal growth. But I quickly realized
+              that Software is very challenging and exiting so
+              I created this space where I can share with the
+              world the projects I &apos; am currently working on.
             </p>
 
-            <button>Lets work together</button>
+            <button className={styles.button}>
+              Lets work together
+            </button>
           </section>
         </div>
 

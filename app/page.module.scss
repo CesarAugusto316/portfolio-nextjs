@@ -4,6 +4,7 @@
     position: relative;
     display: flex;
     width: 100%;
+    background-image: url("/assets/hero-pattern.svg");
     // gap: 4rem;
 
     .col1 {
@@ -12,16 +13,33 @@
       place-items: center;
 
       section {
-        margin-top: -6rem;
+        margin-top: -5rem;
         width: 60%;
         display: flex;
         flex-direction: column;
-        gap: 3rem;
+        gap: 4.4rem;
 
         h1 {
-          font-size: 5.2rem;
+          font-size: 6.4rem;
+          line-height: 4.7rem;
           font-weight: 900;
-          color: var(--primary);
+          color: var(--secondary-700);
+          span {
+            color: var(--secondary-300);
+            opacity: 0.8;
+            font-size: 4.4rem;
+          }
+        }
+
+        .button {
+          cursor: pointer;
+          background-color: var(--secondary-600);
+          border: 3px solid var(--secondary-700);
+          border-radius: 0.8rem;
+          padding: 1.2rem;
+          color: var(--secondary-50);
+          text-transform: uppercase;
+          font-weight: 900;
         }
       }
     }
@@ -32,18 +50,18 @@
       justify-content: space-between;
 
       .dots {
-        width: 35%;
+        width: 38%;
         height: 80%;
         align-self: flex-end;
-        background-image: url("/assets/puntos.png");
+        background-image: url("/assets/puntos (1).png");
         background-repeat: repeat;
         background-size: contain;
       }
 
       .blueBlock {
-        width: 55%;
+        width: 50%;
         height: 100%;
-        background-color: var(--primary);
+        background-color: var(--primary-500);
       }
     }
   }
