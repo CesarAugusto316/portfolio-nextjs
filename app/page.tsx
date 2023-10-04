@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 // assets
 import styles from './page.module.scss';
+import heroPatternImg from '../public/assets/hero-pattern.svg';
 // import computerImg from '../public/assets/palette.gif';
 
 
@@ -19,9 +20,11 @@ export const Home: FC = () => {
         </ul>
       </nav>
 
-      <header className={styles.heroSection}>
-        <div className={styles.col1}>
 
+      <header className={styles.heroSection}>
+        <Image src={heroPatternImg} alt="hero-img" className={styles.heroPattern} />
+
+        <div className={styles.col1}>
           <section>
             <h1>
               César Rivera <br />
