@@ -1,10 +1,35 @@
 .container {
+  position: relative;
+
+  .navBar {
+    position: fixed;
+    z-index: 100;
+    padding: 1.4rem 2.8rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    left: 50%;
+    top: 5rem;
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--slate-100);
+
+    ul {
+      display: flex;
+      gap: 3rem;
+      font-weight: 600;
+
+      li {
+        cursor: pointer;
+      }
+    }
+  }
+
   .heroSection {
     height: 100vh;
     position: relative;
     display: flex;
     width: 100%;
     background-image: url("/assets/hero-pattern.svg");
+    // background-size: contain;
     // gap: 4rem;
 
     .col1 {
@@ -13,21 +38,21 @@
       place-items: center;
 
       section {
-        margin-top: -5rem;
+        margin-top: -2rem;
         width: 60%;
         display: flex;
         flex-direction: column;
         gap: 4.4rem;
 
         h1 {
-          font-size: 6.4rem;
-          line-height: 4.7rem;
+          font-size: 6.2rem;
+          line-height: 4.5rem;
           font-weight: 900;
           color: var(--secondary-700);
           span {
             color: var(--secondary-300);
             opacity: 0.8;
-            font-size: 4.4rem;
+            font-size: 4.2rem;
           }
         }
 
@@ -45,13 +70,38 @@
     }
 
     .col2 {
+      position: relative;
       width: 40%;
       display: flex;
       justify-content: space-between;
 
+      .figures {
+        position: absolute;
+        width: 46rem;
+        top: 50%;
+        transform: translate(0%, -50%);
+        height: auto;
+
+        .square {
+          width: 16rem;
+          aspect-ratio: 1;
+          background-color: #fff;
+          border-radius: 2.4rem;
+          border: 2px solid var(--slate-100);
+        }
+
+        .circle {
+          width: 17rem;
+          aspect-ratio: 1;
+          background-color: #fff;
+          border-radius: 50%;
+          border: 2px solid var(--slate-100);
+        }
+      }
+
       .dots {
-        width: 38%;
-        height: 80%;
+        width: 36.8%;
+        height: 75%;
         align-self: flex-end;
         background-image: url("/assets/puntos (1).png");
         background-repeat: repeat;
@@ -64,5 +114,9 @@
         background-color: var(--primary-500);
       }
     }
+  }
+
+  .projects {
+    height: 100vh;
   }
 }
