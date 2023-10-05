@@ -69,7 +69,6 @@ export const Home: FC = () => {
           </div>
 
           <div className={styles.dots}></div>
-          {/* <div className={styles.blueBlock}></div> */}
         </div>
       </header>
 
