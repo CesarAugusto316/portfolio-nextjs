@@ -1,21 +1,24 @@
 .container {
-  // background-color: var(--primary-300);
   width: 12.8rem;
   aspect-ratio: 1;
   border-radius: 2rem;
-  border: 1px solid var(--primary-400);
   overflow: hidden;
-  overflow-y: scroll;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 3rem;
-  // align-items: start;
+  justify-content: center;
 
-  .icon {
-    display: block;
-    width: 9rem;
-    height: auto;
+  .swiperSlide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+      display: block;
+      width: 9rem;
+      height: auto;
+    }
   }
 }
 

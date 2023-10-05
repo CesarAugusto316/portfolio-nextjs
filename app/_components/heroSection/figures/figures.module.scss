@@ -29,4 +29,16 @@
     border: 2px solid var(--secondary-50);
     @include Figure();
   }
+
+  .pentagon {
+    position: relative;
+    width: 19rem;
+    aspect-ratio: 1;
+
+    .animatorContainer {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
 }
