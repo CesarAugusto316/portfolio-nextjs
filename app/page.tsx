@@ -1,7 +1,7 @@
 import { FC } from 'react';
 
 // components
-import { HeroSection, LatestWorkSection } from './components';
+import { HeroSection, LatestWorkSection } from './_components';
 
 // assets
 import styles from './page.module.scss';

@@ -1,25 +1,21 @@
 .container {
-  position: absolute;
-  z-index: 10;
-  width: 46rem;
-  top: 50%;
-  transform: translate(0%, -50%);
-  height: auto;
+  // background-color: var(--primary-300);
+  width: 12.8rem;
+  aspect-ratio: 1;
+  border-radius: 2rem;
+  border: 1px solid var(--primary-400);
+  overflow: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  // align-items: start;
 
-  .square {
-    width: 16rem;
-    aspect-ratio: 1;
-    background-color: #fff;
-    border-radius: 2.4rem;
-    border: 2px solid var(--secondary-50);
-  }
-
-  .circle {
-    width: 17rem;
-    aspect-ratio: 1;
-    background-color: #fff;
-    border-radius: 50%;
-    border: 2px solid var(--secondary-50);
+  .icon {
+    display: block;
+    width: 9rem;
+    height: auto;
   }
 }
 

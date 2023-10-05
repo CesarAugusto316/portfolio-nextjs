@@ -1,0 +1,32 @@
+@mixin Figure() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: absolute;
+  z-index: 10;
+  width: 46rem;
+  top: 50%;
+  transform: translate(0%, -50%);
+  height: auto;
+
+  .square {
+    width: 16rem;
+    aspect-ratio: 1;
+    background-color: #fff;
+    border-radius: 2.4rem;
+    border: 2px solid var(--secondary-50);
+    @include Figure();
+  }
+
+  .circle {
+    width: 17rem;
+    aspect-ratio: 1;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid var(--secondary-50);
+    @include Figure();
+  }
+}
