@@ -29,9 +29,11 @@
     display: flex;
     width: 100%;
     overflow: hidden;
+    // background: url("/assets/dots.png");
 
     .heroPattern {
       position: absolute;
+      z-index: 1;
       width: 100%;
       margin-top: -1rem;
       transform: rotateZ(180deg);
@@ -89,6 +91,7 @@
 
       .figures {
         position: absolute;
+        z-index: 10;
         width: 46rem;
         top: 50%;
         transform: translate(0%, -50%);
@@ -99,7 +102,7 @@
           aspect-ratio: 1;
           background-color: #fff;
           border-radius: 2.4rem;
-          border: 2px solid var(--slate-100);
+          border: 2px solid var(--secondary-100);
         }
 
         .circle {
@@ -107,13 +110,15 @@
           aspect-ratio: 1;
           background-color: #fff;
           border-radius: 50%;
-          border: 2px solid var(--slate-100);
+          border: 2px solid var(--secondary-100);
         }
       }
 
       .dots {
-        width: 36.8%;
-        height: 75%;
+        margin-left: auto;
+        margin-right: 3rem;
+        width: 38%;
+        height: 94%;
         align-self: flex-end;
         background-image: url("/assets/puntos (1).png");
         background-repeat: repeat;
