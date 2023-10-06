@@ -7,7 +7,7 @@ import heroPatternImg from '../../../public/assets/hero-pattern.svg';
 
 export const HeroSection: FC = () => {
   return (
-    <header className={styles.heroSection}>
+    <header id="home" className={styles.heroSection}>
       <Image src={heroPatternImg} alt="hero-img" className={styles.heroPattern} />
 
       <div className={styles.col1}>
@@ -42,8 +42,9 @@ export const HeroSection: FC = () => {
 
       <div className={styles.col2}>
         <Figures />
-        <div className={styles.dots}></div>
       </div>
+
+      <div className={styles.dots} />
     </header>
   );
 };

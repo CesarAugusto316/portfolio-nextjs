@@ -13,6 +13,17 @@
     transform: rotateZ(180deg);
   }
 
+  .dots {
+    position: absolute;
+    right: 2rem;
+    width: 25rem;
+    height: 100%;
+    align-self: flex-end;
+    background-image: url("/assets/puntos (1).png");
+    background-repeat: repeat;
+    background-size: contain;
+  }
+
   .col1 {
     width: 60%;
     display: grid;
@@ -57,17 +68,6 @@
     width: 40%;
     display: flex;
     justify-content: space-between;
-
-    .dots {
-      margin-left: auto;
-      margin-right: 3rem;
-      width: 38%;
-      height: 94%;
-      align-self: flex-end;
-      background-image: url("/assets/puntos (1).png");
-      background-repeat: repeat;
-      background-size: contain;
-    }
 
     .blueBlock {
       width: 50%;

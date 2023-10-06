@@ -44,7 +44,7 @@
   --base-100: var(--slate-50);
   --base-200: var(--slate-100);
   --base-300: var(--primary-200);
-  --base-content: var(--primary-900);
+  --base-content: var(--slate-700);
 }
 
 *,

@@ -7,10 +7,13 @@
 .container {
   position: absolute;
   z-index: 10;
-  width: 46rem;
+  width: 38rem;
   top: 50%;
   transform: translate(0%, -50%);
   height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 9rem;
 
   .square {
     width: 16rem;
@@ -22,6 +25,7 @@
   }
 
   .circle {
+    align-self: flex-end;
     width: 17rem;
     aspect-ratio: 1;
     background-color: #fff;
@@ -38,6 +42,7 @@
     .animatorContainer {
       position: absolute;
       top: 50%;
+      // left: 50%;
       transform: translate(-50%, -50%);
     }
   }
