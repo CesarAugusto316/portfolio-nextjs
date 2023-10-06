@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import styles from './figures.module.scss';
+import { Animator } from './animator/Animator';
 
 // assets
 import jsIcon from '../../../../public/assets/logos/javascript-original.svg';
@@ -12,14 +13,12 @@ import nestIcon from '../../../../public/assets/logos/nestjs-plain.svg';
 import dockerIcon from '../../../../public/assets/logos/docker-original-wordmark.svg';
 import postgresIcon from '../../../../public/assets/logos/postgresql-original-wordmark.svg';
 import mongoIcon from '../../../../public/assets/logos/mongodb-original-wordmark.svg';
-
 import nextIcon from '../../../../public/assets/logos/nextjs-icon.svg';
 import expressIcon from '../../../../public/assets/logos/express-original-wordmark.svg';
 import gitIcon from '../../../../public/assets/logos/git-scm-icon.svg';
 import sassIcon from '../../../../public/assets/logos/sass-original.svg';
 import tailwindIcon from '../../../../public/assets/logos/tailwindcss-icon.svg';
 import tsIcon from '../../../../public/assets/logos/typescript-original.svg';
-import { Animator } from './animator/Animator';
 
 
 const frontEndIcons = [

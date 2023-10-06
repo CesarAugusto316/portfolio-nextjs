@@ -1,12 +1,9 @@
 import { FC, ReactNode } from 'react';
 import type { Metadata } from 'next';
 import { DM_Sans } from 'next/font/google';
-import { register } from 'swiper/element/bundle';
 import './globals.css';
 
 
-// register Swiper custom elements
-// register();
 
 const dmSans = DM_Sans({ subsets: ['latin'], weight: '400', preload: true });
 

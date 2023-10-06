@@ -4,6 +4,7 @@
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
     "jsx-quotes": ["error", "prefer-double"],
-    "implicit-arrow-linebreak": "error"
+    "implicit-arrow-linebreak": "error",
+    "no-unused-vars": "warn"
   }
 }

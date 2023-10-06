@@ -24,14 +24,6 @@ export const HeroSection: FC = () => {
             that Software is very challenging and exiting. So
             I created this space where I can share with the
             world the projects I &apos; am currently working on.
-
-            {/* What truly sets me apart is my critical thinking
-              skills. I have a knack for dissecting complex problems,
-              analyzing them from multiple angles, and arriving at
-              elegant, efficient solutions. This ability not only
-              streamlines my development processes but also ensures
-              that every project I touch delights users with a
-              well crafted design. */}
           </p>
 
           <button className={styles.button}>

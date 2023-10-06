@@ -1,10 +1,11 @@
 'use client';
 
-import { FC, useEffect } from 'react';
+import { FC } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
+
 // assets
 import styles from './animator.module.scss';
 
@@ -14,7 +15,6 @@ interface Props {
 }
 
 export const Animator: FC<Props> = ({ icons }) => {
-
   return (
     <div className={styles.container}>
       <Swiper
