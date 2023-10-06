@@ -67,7 +67,7 @@ body {
 ::-webkit-scrollbar {
   appearance: none;
   width: 10px;
-  background-color: var(--primary-100);
+  background-color: var(--secondary-200);
 }
 ::-webkit-scrollbar-thumb {
   background-color: var(--secondary-300);
