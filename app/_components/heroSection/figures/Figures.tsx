@@ -3,22 +3,22 @@ import styles from './figures.module.scss';
 import { Animator } from './animator/Animator';
 
 // assets
-import jsIcon from '../../../../public/assets/logos/javascript-original.svg';
-import reactIcon from '../../../../public/assets/logos/react-original-wordmark.svg';
-import reduxIcon from '../../../../public/assets/logos/redux-original.svg';
-import nodeIcon from '../../../../public/assets/logos/nodejs-original-wordmark.svg';
-import jestIcon from '../../../../public/assets/logos/jestjsio-icon.svg';
-import redisIcon from '../../../../public/assets/logos/redis-original-wordmark.svg';
-import nestIcon from '../../../../public/assets/logos/nestjs-plain.svg';
-import dockerIcon from '../../../../public/assets/logos/docker-original-wordmark.svg';
-import postgresIcon from '../../../../public/assets/logos/postgresql-original-wordmark.svg';
-import mongoIcon from '../../../../public/assets/logos/mongodb-original-wordmark.svg';
-import nextIcon from '../../../../public/assets/logos/nextjs-icon.svg';
-import expressIcon from '../../../../public/assets/logos/express-original-wordmark.svg';
-import gitIcon from '../../../../public/assets/logos/git-scm-icon.svg';
-import sassIcon from '../../../../public/assets/logos/sass-original.svg';
-import tailwindIcon from '../../../../public/assets/logos/tailwindcss-icon.svg';
-import tsIcon from '../../../../public/assets/logos/typescript-original.svg';
+import jsIcon from '@/assets/logos/javascript-original.svg';
+import reactIcon from '@/assets/logos/react-original-wordmark.svg';
+import reduxIcon from '@/assets/logos/redux-original.svg';
+import nodeIcon from '@/assets/logos/nodejs-original-wordmark.svg';
+import jestIcon from '@/assets/logos/jestjsio-icon.svg';
+import redisIcon from '@/assets/logos/redis-original-wordmark.svg';
+import nestIcon from '@/assets/logos/nestjs-plain.svg';
+import dockerIcon from '@/assets/logos/docker-original-wordmark.svg';
+import postgresIcon from '@/assets/logos/postgresql-original-wordmark.svg';
+import mongoIcon from '@/assets/logos/mongodb-original-wordmark.svg';
+import nextIcon from '@/assets/logos/nextjs-icon.svg';
+import expressIcon from '@/assets/logos/express-original-wordmark.svg';
+import gitIcon from '@/assets/logos/git-scm-icon.svg';
+import sassIcon from '@/assets/logos/sass-original.svg';
+import tailwindIcon from '@/assets/logos/tailwindcss-icon.svg';
+import tsIcon from '@/assets/logos/typescript-original.svg';
 
 
 const frontEndIcons = [
