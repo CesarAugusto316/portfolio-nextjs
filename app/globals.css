@@ -59,6 +59,15 @@
   color: var(--base-content);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+}
+
 body {
   font-size: 1.6rem;
   background-color: var(--base-100);
