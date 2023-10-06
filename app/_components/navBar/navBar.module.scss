@@ -1,0 +1,21 @@
+.navBar {
+  position: fixed;
+  z-index: 100;
+  padding: 1.4rem 2.8rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  left: 50%;
+  top: 5rem;
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--slate-100);
+
+  ul {
+    display: flex;
+    gap: 3rem;
+    font-weight: 600;
+
+    li {
+      cursor: pointer;
+    }
+  }
+}
