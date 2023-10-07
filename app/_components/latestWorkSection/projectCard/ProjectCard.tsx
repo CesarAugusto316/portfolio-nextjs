@@ -31,7 +31,7 @@ export const ProjectCard: FC<Props> = ({ project }) => {
             <Image height={26} className={styles.icon} src={githubIcon} alt="github-icon" />
           </button>
           <button>
-            <span>Deploy</span>
+            <span>Live</span>
             <Image height={26} className={styles.icon} src={rocketIcon} alt="github-icon" />
           </button>
         </div>

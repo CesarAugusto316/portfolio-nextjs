@@ -34,7 +34,7 @@
         flex: 1 1 50%;
         cursor: pointer;
         background-color: #fff;
-        border: 2px solid var(--slate-100);
+        border: 2px solid var(--secondary-400);
         border-radius: 1rem;
         padding: 0.5rem 1rem;
         display: flex;
@@ -45,6 +45,7 @@
         span {
           font-size: 1.7rem;
           font-weight: 600;
+          color: var(--secondary-500);
         }
       }
     }
