@@ -18,7 +18,6 @@ import ecomerceImg1 from '@/assets/projects/Screenshot (65).png';
 import ecomerceImg2 from '@/assets/projects/Screenshot (66).png';
 import ecomerceImg3 from '@/assets/projects/Screenshot (67).png';
 import ecomerceImg4 from '@/assets/projects/Screenshot (68).png';
-import ecomerceImg5 from '@/assets/projects/Screenshot (69).png';
 import dotsImg from '@/assets/puntos.png';
 import styles from './latestWorkSection.module.scss';
 
@@ -50,7 +49,7 @@ const PROJECTS: Project[] = [
     id: 2
   },
   {
-    images: [ecomerceImg1, ecomerceImg2, ecomerceImg3, ecomerceImg4, ecomerceImg5],
+    images: [ecomerceImg1, ecomerceImg2, ecomerceImg3, ecomerceImg4],
     title: 'E-commerce App',
     description: 'With Modern design, animations, using a CMS, all advanced cart functionalities, and most importantly the complete integration with Stripe',
     repoUrl: 'https://github.com/CesarAugusto316/ecommerce-next-sanity',
