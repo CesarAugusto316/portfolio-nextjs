@@ -16,12 +16,13 @@
   .dots {
     position: absolute;
     right: 2rem;
-    width: 25rem;
-    height: 100%;
+    width: 24rem;
+    height: 80%;
     align-self: flex-end;
     background-image: url("/assets/puntos (1).png");
     background-repeat: repeat;
     background-size: contain;
+    opacity: 0.5;
   }
 
   .col1 {

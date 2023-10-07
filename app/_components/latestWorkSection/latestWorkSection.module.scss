@@ -1,5 +1,7 @@
+@import "../mixins.module.scss";
+
 .container {
-  height: 100vh;
+  @include Section();
 
   display: flex;
   align-items: center;
@@ -7,11 +9,27 @@
 
   .main {
     margin-top: 2rem;
+    position: relative;
 
-    h2 {
-      text-align: center;
-      font-size: 3.8rem;
-      margin-bottom: 3rem;
+    @mixin Dots() {
+      position: absolute;
+      width: 19rem;
+      height: 15rem;
+      display: block;
+      z-index: -1;
+      opacity: 0.5;
+    }
+
+    .dotsLeft {
+      @include Dots();
+      left: -8rem;
+      top: 1rem;
+    }
+
+    .dotsRight {
+      @include Dots();
+      bottom: -7rem;
+      right: -8rem;
     }
 
     .projectsContainer {

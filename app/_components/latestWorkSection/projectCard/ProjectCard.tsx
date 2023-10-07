@@ -16,9 +16,7 @@ interface Props {
 
 export const ProjectCard: FC<Props> = ({ project }) => {
   return (
-    <div
-      className={styles.project}
-    >
+    <div className={styles.project}>
       <Image className={styles.img} src={project.images[0]} alt="icon" />
 
       <div className={styles.body}>
@@ -26,14 +24,14 @@ export const ProjectCard: FC<Props> = ({ project }) => {
         <p>{project.description}</p>
 
         <div className={styles.buttons}>
-          <button>
-            <span>Code</span>
-            <Image height={26} className={styles.icon} src={githubIcon} alt="github-icon" />
-          </button>
-          <button>
+          <a href={project.repoUrl} target="_blank">
+            <span>Repo</span>
+            <Image height={23} className={styles.icon} src={githubIcon} alt="github-icon" />
+          </a>
+          <a href={project.liveUrl} target="_blank">
             <span>Live</span>
-            <Image height={26} className={styles.icon} src={rocketIcon} alt="github-icon" />
-          </button>
+            <Image height={23} className={styles.icon} src={rocketIcon} alt="github-icon" />
+          </a>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { StaticImageData } from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import { ProjectCard } from './projectCard/ProjectCard';
 
 // assets
@@ -19,6 +19,7 @@ import ecomerceImg2 from '@/assets/projects/Screenshot (66).png';
 import ecomerceImg3 from '@/assets/projects/Screenshot (67).png';
 import ecomerceImg4 from '@/assets/projects/Screenshot (68).png';
 import ecomerceImg5 from '@/assets/projects/Screenshot (69).png';
+import dotsImg from '@/assets/puntos.png';
 import styles from './latestWorkSection.module.scss';
 
 
@@ -64,6 +65,7 @@ export const LatestWorkSection: FC = () => {
     <section id="projects" className={styles.container}>
 
       <div className={styles.main}>
+        <Image className={styles.dotsLeft} src={dotsImg} alt="dots" />
         <h2>Latest Work</h2>
 
         <div className={styles.projectsContainer}>
@@ -71,6 +73,8 @@ export const LatestWorkSection: FC = () => {
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
+
+        <Image className={styles.dotsRight} src={dotsImg} alt="dots" />
       </div>
     </section>
   );
