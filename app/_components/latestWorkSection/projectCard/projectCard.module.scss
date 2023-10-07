@@ -1,0 +1,52 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  width: 32rem;
+  border-radius: 1.6rem;
+  border: 1px solid var(--slate-100);
+  overflow: hidden;
+
+  .img {
+    width: 100%;
+
+    height: 17rem;
+    object-fit: cover;
+  }
+
+  .body {
+    background-color: #fff !important;
+    padding: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    h3 {
+      text-align: center;
+      font-size: 2.8rem;
+      line-height: 2.2rem;
+    }
+    .buttons {
+      margin-top: 0.4rem;
+      display: flex;
+      gap: 1.2rem;
+
+      button {
+        flex: 1 1 50%;
+        cursor: pointer;
+        background-color: #fff;
+        border: 2px solid var(--slate-100);
+        border-radius: 1rem;
+        padding: 0.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        span {
+          font-size: 1.7rem;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
