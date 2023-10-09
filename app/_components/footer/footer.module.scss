@@ -1,4 +1,5 @@
 .container {
+  margin-top: 4rem;
   height: 25vh;
   background-color: var(--slate-100);
   display: flex;
@@ -7,6 +8,5 @@
 
   p {
     font-size: 1.8rem;
-    // color: #fff;
   }
 }
