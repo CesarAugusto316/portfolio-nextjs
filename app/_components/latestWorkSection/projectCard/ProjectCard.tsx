@@ -50,7 +50,7 @@ export const ProjectCard: FC<Props> = ({ project }) => {
             <Image height={23} className={styles.icon} src={githubIcon} alt="github-icon" />
           </a>
           <a href={project.liveUrl} target="_blank">
-            <span>Live</span>
+            <span>Visit</span>
             <Image height={23} className={styles.icon} src={rocketIcon} alt="github-icon" />
           </a>
         </div>

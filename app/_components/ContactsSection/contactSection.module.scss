@@ -8,5 +8,39 @@
   justify-content: center;
 
   .main {
+    .form {
+      ul {
+        width: 38rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.8rem;
+
+        li {
+          display: flex;
+          flex-direction: column;
+          gap: 0.6rem;
+          width: 100%;
+
+          label {
+            font-weight: 600;
+          }
+
+          input,
+          textarea {
+            padding: 1.2rem;
+            border-radius: 0.8rem;
+            color: var(--base-content);
+            font-size: 1.6rem;
+            font-family: inherit;
+            font-weight: 400;
+          }
+
+          button {
+            @include Button();
+            margin-top: 2rem;
+          }
+        }
+      }
+    }
   }
 }
