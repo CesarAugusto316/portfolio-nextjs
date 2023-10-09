@@ -1,7 +1,14 @@
 import { FC } from 'react';
 
 // components
-import { HeroSection, LatestWorkSection, NavBar, AboutSection, ContactsSection } from './_components';
+import {
+  HeroSection,
+  LatestWorkSection,
+  NavBar,
+  AboutSection,
+  ContactsSection,
+  Footer
+} from './_components';
 
 // assets
 import styles from './page.module.scss';
@@ -19,6 +26,8 @@ export const Home: FC = () => {
       <AboutSection />
 
       <ContactsSection />
+
+      <Footer />
     </div>
   );
 };

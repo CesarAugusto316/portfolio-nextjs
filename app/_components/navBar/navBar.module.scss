@@ -1,21 +1,41 @@
 .navBar {
   position: fixed;
   z-index: 100;
-  padding: 1.4rem 2.8rem;
   background-color: #fff;
   border-radius: 1rem;
   left: 50%;
-  top: 5rem;
-  transform: translate(-50%, -50%);
-  border: 1px solid var(--slate-100);
+  top: 2rem;
+  width: calc(100% - 6rem);
+  height: 6.4rem;
+  transform: translate(-50%);
+  box-shadow: 1px 2px 5px 0px rgba($color: #334155, $alpha: 0.07);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
 
   ul {
     display: flex;
     gap: 3rem;
     font-weight: 600;
+    font-size: 1.7rem;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
 
     li {
       cursor: pointer;
     }
+  }
+
+  button {
+    font-size: 1.9rem;
+    line-height: 1rem;
+    font-weight: 900;
+    background-color: transparent;
   }
 }
