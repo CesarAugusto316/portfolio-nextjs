@@ -38,7 +38,7 @@ export const NavBar: FC = () => {
       </ul>
 
       <button>
-        <FontAwesomeIcon height={25} icon={faMoon} />
+        <FontAwesomeIcon fontSize={25} height={25} width={25} icon={faMoon} />
       </button>
     </nav>
   );

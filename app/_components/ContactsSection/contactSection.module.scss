@@ -8,9 +8,48 @@
   justify-content: center;
 
   .main {
+    .contactLinks {
+      margin-top: 3rem;
+      background-color: #fff;
+      border: 1px solid var(--slate-100);
+      padding: 4rem;
+      padding-top: 7rem;
+      border-radius: 1.6rem;
+      position: relative;
+
+      h3 {
+        font-size: 2.6rem;
+        text-align: center;
+        margin-bottom: 1.8rem;
+      }
+
+      .contactsIcon {
+        position: absolute;
+        height: 12rem;
+        width: auto;
+        left: 50%;
+        top: -0.6rem;
+        transform: translate(-50%, -50%);
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+
+        li {
+          a {
+            display: flex;
+            align-items: center;
+            gap: 1.8rem;
+          }
+        }
+      }
+    }
+
     .form {
       ul {
-        width: 38rem;
+        width: 36rem;
         display: flex;
         flex-direction: column;
         gap: 1.8rem;
