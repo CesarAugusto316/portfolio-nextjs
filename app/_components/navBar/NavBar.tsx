@@ -25,7 +25,6 @@ export const NavBar: FC = () => {
         </li>
         <li>
           <a href="#testimonials">
-            {/* <FontAwesomeIcon icon={faHandHoldingHeart} /> */}
             <FontAwesomeIcon height={18} icon={faHandHoldingHeart} />
             <span>Testimonials</span>
           </a>

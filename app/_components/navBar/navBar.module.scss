@@ -6,13 +6,13 @@
   left: 50%;
   top: 2rem;
   width: calc(100% - 6rem);
-  height: 6.4rem;
+  height: 6.6rem;
   transform: translate(-50%);
-  box-shadow: 1px 2px 5px 0px rgba($color: #334155, $alpha: 0.07);
+  box-shadow: 1px 3px 5px 0px rgba($color: #334155, $alpha: 0.08);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 3rem;
+  padding: 0 3.2rem;
 
   ul {
     display: flex;
