@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 32rem;
   border-radius: 1.6rem;
-  border: 1px solid var(--slate-100);
+  border: 1px solid var(--base-200);
   overflow: hidden;
 
   .img {
@@ -14,7 +14,7 @@
   }
 
   .body {
-    background-color: #fff !important;
+    background-color: var(--base-50) !important;
     padding: 2.4rem;
     padding-top: 2.2rem;
     display: flex;
@@ -35,7 +35,7 @@
       a {
         flex: 1 1 50%;
         cursor: pointer;
-        background-color: #fff;
+        background-color: var(--base-50);
         border: 2px solid var(--secondary-400);
         border-radius: 1rem;
         padding: 0.7rem 1rem;

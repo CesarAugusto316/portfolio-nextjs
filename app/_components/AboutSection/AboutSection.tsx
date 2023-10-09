@@ -8,6 +8,11 @@ export const AboutSection: FC = () => {
 
       <div className={styles.main}>
         <h2>Testimonials</h2>
+
+        <div>
+          <p>People I&apos;ve worked with have said some nice things...</p>
+
+        </div>
       </div>
     </div>
   );

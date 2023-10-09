@@ -19,9 +19,9 @@
   .square {
     width: 16rem;
     aspect-ratio: 1;
-    background-color: #fff;
+    background-color: var(--base-50);
     border-radius: 2.4rem;
-    border: 5px solid var(--secondary-50);
+    border: 5px solid var(--base-200);
     @include Figure();
   }
 
@@ -29,9 +29,9 @@
     align-self: flex-end;
     width: 17rem;
     aspect-ratio: 1;
-    background-color: #fff;
+    background-color: var(--base-50);
     border-radius: 50%;
-    border: 5px solid var(--secondary-50);
+    border: 5px solid var(--base-200);
     @include Figure();
   }
 

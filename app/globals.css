@@ -35,15 +35,16 @@
 }
 
 [data-theme="dark"] {
-  --base-100: var(--slate-800);
-  --base-200: var(--slate-900);
-  --base-content: #94a3b8;
+  --base-50: var(--slate-800);
+  --base-100: var(--slate-900);
+  --base-200: var(--slate-950);
+  --base-content: #a3b1c6;
 }
 
 [data-theme="light"] {
+  --base-50: #fff;
   --base-100: var(--slate-50);
   --base-200: var(--slate-100);
-  --base-300: var(--secondary-200);
   --base-content: var(--slate-700);
 }
 
