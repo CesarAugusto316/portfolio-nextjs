@@ -1,8 +1,8 @@
 import { FC } from 'react';
-import styles from './aboutSection.module.scss';
+import styles from './testimonialsSection.module.scss';
 
 
-export const AboutSection: FC = () => {
+export const TestimonialsSection: FC = () => {
   return (
     <div id="testimonials" className={styles.container}>
 

@@ -5,9 +5,10 @@ import {
   HeroSection,
   LatestWorkSection,
   NavBar,
-  AboutSection,
+  TestimonialsSection,
   ContactsSection,
-  Footer
+  Footer,
+  AboutMeSection
 } from './_components';
 
 // assets
@@ -21,9 +22,11 @@ export const Home: FC = () => {
 
       <HeroSection />
 
+      <AboutMeSection />
+
       <LatestWorkSection />
 
-      <AboutSection />
+      <TestimonialsSection />
 
       <ContactsSection />
 

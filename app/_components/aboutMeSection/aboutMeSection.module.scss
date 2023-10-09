@@ -1,0 +1,25 @@
+@import "../mixins.module.scss";
+
+.container {
+  @include Section();
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .main {
+    display: block;
+
+    .content {
+      width: 80rem;
+      display: flex;
+      align-items: center;
+      gap: 8rem;
+
+      .avatar {
+        height: 27rem;
+        width: auto;
+      }
+    }
+  }
+}
