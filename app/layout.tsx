@@ -18,7 +18,7 @@ interface Props {
 }
 export const RootLayout: FC<Props> = ({ children }) => {
   return (
-    <html lang="en" data-theme="dark">
+    <html lang="en" data-theme="light">
       <body className={dmSans.className}>{children}</body>
     </html>
   );
