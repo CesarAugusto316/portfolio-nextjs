@@ -6,12 +6,12 @@ import { Project } from '../LatestWorkSection';
 
 // assets
 import styles from './projectCard.module.scss';
-import githubIcon from '@/assets/icons/github.svg';
 import rocketIcon from '@/assets/icons/rocket.svg';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectFade, Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/effect-fade';
+// import githubIcon from '@/assets/icons/github.svg';
+// import { EffectFade, Autoplay } from 'swiper/modules';
+// import 'swiper/css/effect-fade';
 
 
 interface Props {
@@ -26,13 +26,9 @@ export const ProjectCard: FC<Props> = ({ project }) => {
         speed={500}
         effect="fade"
         className={styles.img}
-        modules={[EffectFade, Autoplay]}
+        grabCursor={true}
         loop={true}
-        autoplay={{
-          pauseOnMouseEnter: true,
-          disableOnInteraction: false,
-          delay: 7_000
-        }}>
+      >
         {project.images.map((img, i) => (
           <SwiperSlide key={i}>
             <Image className={styles.img} src={img} alt="icon" />
@@ -45,10 +41,10 @@ export const ProjectCard: FC<Props> = ({ project }) => {
         <p>{project.description}</p>
 
         <div className={styles.buttons}>
-          <a href={project.repoUrl} target="_blank">
+          {/* <a href={project.repoUrl} target="_blank">
             <span>Repo</span>
             <Image height={23} className={styles.icon} src={githubIcon} alt="github-icon" />
-          </a>
+          </a> */}
           <a href={project.liveUrl} target="_blank">
             <span>Visit</span>
             <Image height={23} className={styles.icon} src={rocketIcon} alt="github-icon" />

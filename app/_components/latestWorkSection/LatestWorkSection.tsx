@@ -3,11 +3,14 @@ import Image, { StaticImageData } from 'next/image';
 import { ProjectCard } from './projectCard/ProjectCard';
 
 // assets
-import larnUImg1 from '@/assets/projects/larnu_desktop_01.png';
-import larnUImg2 from '@/assets/projects/larnu_desktop_02.png';
-import larnUImg3 from '@/assets/projects/larnu_desktop_03.png';
-import larnUImg4 from '@/assets/projects/larnu_desktop_04.png';
-import larnUImg5 from '@/assets/projects/larnu_desktop_05.png';
+import larnUImg0 from '@/assets/projects/larnu0.png';
+import larnUImg1 from '@/assets/projects/Screenshot (70).png';
+import larnUImg2 from '@/assets/projects/larnu_desktop_01.png';
+import larnUImg3 from '@/assets/projects/larnu_desktop_02.png';
+import larnUImg4 from '@/assets/projects/larnu_desktop_03.png';
+import larnUImg5 from '@/assets/projects/larnu_desktop_04.png';
+import larnUImg6 from '@/assets/projects/larnu_desktop_05.png';
+import quizifyImg0 from '@/assets/projects/quizify.png';
 import quizifyImg1 from '@/assets/projects/Screenshot (64).png';
 import quizifyImg2 from '@/assets/projects/Screenshot (63).png';
 import quizifyImg3 from '@/assets/projects/Screenshot (54).png';
@@ -33,7 +36,7 @@ export type Project = {
 
 const PROJECTS: Project[] = [
   {
-    images: [larnUImg1, larnUImg2, larnUImg3, larnUImg4, larnUImg5],
+    images: [larnUImg0, larnUImg1, larnUImg6, larnUImg2, larnUImg3, larnUImg4, larnUImg5],
     title: 'LarnU',
     description: 'Our unique approach seamlessly combines data, design, and technology to empower individuals to master languages effectively by simulating real-life conversations',
     repoUrl: 'https://gitlab.com/larnu-group/larnu-web-app',
@@ -41,7 +44,7 @@ const PROJECTS: Project[] = [
     id: 1
   },
   {
-    images: [quizifyImg1, quizifyImg2, quizifyImg3, quizifyImg4, quizifyImg5, quizifyImg6],
+    images: [quizifyImg0, quizifyImg1, quizifyImg2, quizifyImg3, quizifyImg4, quizifyImg5, quizifyImg6],
     title: 'Quizify',
     description: 'Quizify revolutionizes the learning experience with its proven methodology enhanced by gamification, allowing you to master any subject with ease.',
     repoUrl: 'https://gitlab.com/quizify/quiz-gpt/web',
