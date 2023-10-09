@@ -8,6 +8,55 @@
   justify-content: center;
 
   .main {
-    display: block;
+    width: 100%;
+
+    h3 {
+      text-align: center;
+      margin-bottom: 8rem;
+      color: var(--secondary-300);
+    }
+
+    .testimonialsContainer {
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      gap: 4.6rem;
+      width: 100%;
+
+      .testimonialCard {
+        position: relative;
+        flex: 0 1 30rem;
+        background-color: var(--base-50);
+        border: 2px solid var(--secondary-400);
+        padding: 3rem;
+        padding-top: 7rem;
+        border-top-left-radius: 2.2rem;
+        border-bottom-right-radius: 2.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+
+        .avatar {
+          width: 9.2rem;
+          height: auto;
+          position: absolute;
+          left: 50%;
+          top: 0rem;
+          transform: translate(-50%, -50%);
+          border-radius: 50%;
+          overflow: hidden;
+        }
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+
+          h4 {
+            font-size: 1.72rem;
+          }
+        }
+      }
+    }
   }
 }
