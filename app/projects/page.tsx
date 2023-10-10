@@ -1,12 +1,7 @@
-import { FC } from 'react';
-
-
-export const Projects: FC = () => {
+export default function Projects(): JSX.Element {
   return (
     <div>
       <h1>Projects</h1>
     </div>
   );
 };
-
-export default Projects;

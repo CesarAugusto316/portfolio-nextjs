@@ -1,5 +1,3 @@
-import { FC } from 'react';
-
 // components
 import {
   HeroSection,
@@ -15,7 +13,7 @@ import {
 import styles from './page.module.scss';
 
 
-export const Home: FC = () => {
+export default function Home(): JSX.Element {
   return (
     <div className={styles.container}>
       <NavBar />
@@ -34,5 +32,3 @@ export const Home: FC = () => {
     </div>
   );
 };
-
-export default Home;
