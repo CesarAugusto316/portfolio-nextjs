@@ -6,6 +6,7 @@ import styles from './latestWorkSection.module.scss';
 import larnUImg0 from '@/assets/projects/larnu0.png';
 import quizifyImg0 from '@/assets/projects/quizify.png';
 import cortevaImag from '@/assets/projects/corteva.png';
+import cometaImag from '@/assets/projects/cometa.png';
 import ecomerceImg1 from '@/assets/projects/Screenshot (65).png';
 import vlgLandingPage from '@/assets/projects/vlg-landing-page.png';
 import vlgLandingDashboard from '@/assets/projects/vlg-dashboard.png';
@@ -17,7 +18,7 @@ export type Project = {
   image?: StaticImageData,
   title: string,
   description: string,
-  repoUrl: string,
+  repoUrl?: string,
   repoUrl2?: string,
   liveUrl: string,
   fileUrl?: string,
@@ -42,6 +43,14 @@ const PROJECTS: Project[] = [
     liveUrl: 'https://www.victorialine.com/',
     fileUrl: '/code/vlg-landing-page.zip',
     id: 1
+  },
+  {
+    image: cometaImag,
+    title: 'Cometa',
+    description: 'Cometa is a platform that provides the opportunity to engage in new and authentic experiences with like-minded individuals. Our goal is to foster an empowering community of people',
+    repoUrl2: 'https://4qkgc3d8fp.eu-west-3.awsapprunner.com/api/v1',
+    liveUrl: 'https://4qkgc3d8fp.eu-west-3.awsapprunner.com/api/v1',
+    id: 9
   },
   {
     image: cortevaImag,
