@@ -8,7 +8,7 @@ export const AboutMeSection: FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.main}>
-        <h2>Hi, I&apos;m César.  Nice to meet you.</h2>
+        <h1>Hi, I&apos;m César.  Nice to meet you.</h1>
         <div className={styles.content}>
           <p>
             {/* Since beginning my journey as a freelance designer over 2 years ago,
