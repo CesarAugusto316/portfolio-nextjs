@@ -17,26 +17,30 @@ export type Project = {
   title: string,
   description: string,
   repoUrl: string,
+  repoUrl2?: string,
   liveUrl: string,
+  fileUrl?: string,
   id: number
 }
 
 const PROJECTS: Project[] = [
+  {
+    image: vlgLandingDashboard,
+    title: 'VLG Dashboard',
+    description: 'Our unique approach seamlessly combines data, design, and technology to empower individuals to master languages effectively by simulating real-life conversations',
+    repoUrl: 'https://gitlab.com/larnu-group/larnu-web-app',
+    repoUrl2: 'sss',
+    liveUrl: 'https://admin-qa.victorialine.com/',
+    id: 2
+  },
   {
     image: vlgLandingPage,
     title: 'VLG Landing Page',
     description: 'Our unique approach seamlessly combines data, design, and technology to empower individuals to master languages effectively by simulating real-life conversations',
     repoUrl: 'https://gitlab.com/victoria-line-group/landing-page',
     liveUrl: 'https://www.victorialine.com/',
+    fileUrl: '/code/vlg-landing-page.zip',
     id: 1
-  },
-  {
-    image: vlgLandingDashboard,
-    title: 'LarnU',
-    description: 'Our unique approach seamlessly combines data, design, and technology to empower individuals to master languages effectively by simulating real-life conversations',
-    repoUrl: 'https://gitlab.com/larnu-group/larnu-web-app',
-    liveUrl: 'https://dev.larnu.app/',
-    id: 2
   },
   {
     image: larnUImg0,

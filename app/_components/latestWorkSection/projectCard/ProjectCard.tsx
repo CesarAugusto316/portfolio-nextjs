@@ -7,7 +7,7 @@ import { Project } from '../LatestWorkSection';
 import styles from './projectCard.module.scss';
 import rocketIcon from '@/assets/icons/rocket.svg';
 import githubIcon from '@/assets/icons/github.svg';
-import downloadIcon from '@/assets/icons/download-solid.svg';
+// import downloadIcon from '@/assets/icons/download-solid.svg';
 
 
 interface Props {
@@ -24,7 +24,7 @@ export const ProjectCard: FC<Props> = ({ project }) => {
         <div>
           <div className={styles.buttons}>
             <a href={project.repoUrl} target="_blank">
-              <span>Repo</span>
+              <span>Front end</span>
               <Image height={23} className={styles.icon} src={githubIcon} alt="github-icon" />
             </a>
             <a href={project.liveUrl} target="_blank">
@@ -32,12 +32,14 @@ export const ProjectCard: FC<Props> = ({ project }) => {
               <Image height={23} className={styles.icon} src={rocketIcon} alt="github-icon" />
             </a>
           </div>
-          <div className={styles.buttons}>
-            <a href={''} target="_blank">
-              <span>Download Code</span>
-              <Image height={23} className={styles.icon} src={downloadIcon} alt="github-icon" />
-            </a>
-          </div>
+          {project.repoUrl2 && (
+            <div className={styles.buttons}>
+              <a href={project.repoUrl2} target="_blank">
+                <span>Back end</span>
+                <Image height={23} className={styles.icon} src={githubIcon} alt="github-icon" />
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </div>
