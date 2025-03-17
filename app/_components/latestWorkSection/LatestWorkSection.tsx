@@ -3,8 +3,8 @@ import Image, { StaticImageData } from 'next/image';
 import { ProjectCard } from './projectCard/ProjectCard';
 import styles from './latestWorkSection.module.scss';
 // assets
-import larnUImg0 from '@/assets/projects/larnu0.png';
-import quizifyImg0 from '@/assets/projects/quizify.png';
+// import larnUImg0 from '@/assets/projects/larnu0.png';
+// import quizifyImg0 from '@/assets/projects/quizify.png';
 import cortevaImag from '@/assets/projects/corteva.png';
 import cometaImag from '@/assets/projects/cometa.png';
 import ecomerceImg1 from '@/assets/projects/Screenshot (65).png';
