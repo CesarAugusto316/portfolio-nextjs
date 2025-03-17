@@ -68,22 +68,22 @@ const PROJECTS: Project[] = [
     liveUrl: 'https://ecommerce-next-sanity-sigma.vercel.app/',
     id: 5
   },
-  {
-    image: larnUImg0,
-    title: 'LarnU',
-    description: 'Our unique approach seamlessly combines data, design, and technology to empower individuals to master languages effectively by simulating real-life conversations',
-    frontEndRepo: 'https://gitlab.com/larnu-group/larnu-web-app',
-    liveUrl: 'https://dev.larnu.app/',
-    id: 3
-  },
-  {
-    image: quizifyImg0,
-    title: 'Quizify',
-    description: 'Quizify revolutionizes the learning experience with its proven methodology enhanced by gamification, allowing you to master any subject with ease.',
-    frontEndRepo: 'https://gitlab.com/quizify/quiz-gpt/web',
-    liveUrl: 'https://quizify.com/',
-    id: 4
-  }
+  // {
+  //   image: larnUImg0,
+  //   title: 'LarnU',
+  //   description: 'Our unique approach seamlessly combines data, design, and technology to empower individuals to master languages effectively by simulating real-life conversations',
+  //   frontEndRepo: 'https://gitlab.com/larnu-group/larnu-web-app',
+  //   liveUrl: 'https://dev.larnu.app/',
+  //   id: 3
+  // },
+  // {
+  //   image: quizifyImg0,
+  //   title: 'Quizify',
+  //   description: 'Quizify revolutionizes the learning experience with its proven methodology enhanced by gamification, allowing you to master any subject with ease.',
+  //   frontEndRepo: 'https://gitlab.com/quizify/quiz-gpt/web',
+  //   liveUrl: 'https://quizify.com/',
+  //   id: 4
+  // }
 ];
 
 
