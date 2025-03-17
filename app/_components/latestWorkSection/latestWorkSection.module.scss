@@ -2,7 +2,8 @@
 
 .container {
   @include Section();
-
+  height: 100%;
+  max-height: max-content;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,6 +38,7 @@
       grid-template-columns: auto auto auto;
       margin: auto;
       gap: 4.6rem;
+      align-self: stretch;
     }
   }
 }

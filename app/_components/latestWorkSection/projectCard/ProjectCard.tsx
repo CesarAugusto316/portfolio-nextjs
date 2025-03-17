@@ -21,7 +21,8 @@ export const ProjectCard: FC<Props> = ({ project }) => {
       <div className={styles.body}>
         <h3>{project.title}</h3>
         <p>{project.description}</p>
-        <div>
+
+        <div className={styles.bottom}>
           <div className={styles.buttons}>
             <a href={project.repoUrl} target="_blank">
               <span>Front end</span>

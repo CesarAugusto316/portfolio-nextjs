@@ -5,6 +5,7 @@ import styles from './latestWorkSection.module.scss';
 // assets
 import larnUImg0 from '@/assets/projects/larnu0.png';
 import quizifyImg0 from '@/assets/projects/quizify.png';
+import cortevaImag from '@/assets/projects/corteva.png';
 import ecomerceImg1 from '@/assets/projects/Screenshot (65).png';
 import vlgLandingPage from '@/assets/projects/vlg-landing-page.png';
 import vlgLandingDashboard from '@/assets/projects/vlg-dashboard.png';
@@ -27,7 +28,7 @@ const PROJECTS: Project[] = [
   {
     image: vlgLandingDashboard,
     title: 'VLG Dashboard',
-    description: 'Our unique approach seamlessly combines data, design, and technology to empower individuals to master languages effectively by simulating real-life conversations',
+    description: 'comprehensive logistics solutions, specializing in  import and export of air, sea, and land cargo, delivering services with excellence, integrity, and commitment.',
     repoUrl: 'https://gitlab.com/larnu-group/larnu-web-app',
     repoUrl2: 'sss',
     liveUrl: 'https://admin-qa.victorialine.com/',
@@ -36,11 +37,20 @@ const PROJECTS: Project[] = [
   {
     image: vlgLandingPage,
     title: 'VLG Landing Page',
-    description: 'Our unique approach seamlessly combines data, design, and technology to empower individuals to master languages effectively by simulating real-life conversations',
+    description: 'comprehensive logistics solutions, specializing in  import and export of air, sea, and land cargo, delivering services with excellence, integrity, and commitment.',
     repoUrl: 'https://gitlab.com/victoria-line-group/landing-page',
     liveUrl: 'https://www.victorialine.com/',
     fileUrl: '/code/vlg-landing-page.zip',
     id: 1
+  },
+  {
+    image: cortevaImag,
+    title: 'Corteva',
+    description: 'Corteva Agriscience is a global pure-play agriculture company that combines industry-leading innovation, high-touch customer engagement and operational execution.',
+    repoUrl: 'https://gitlab.com/larnu-group/larnu-web-app',
+    repoUrl2: 'sss',
+    liveUrl: 'https://admin-qa.victorialine.com/',
+    id: 8
   },
   {
     image: larnUImg0,
