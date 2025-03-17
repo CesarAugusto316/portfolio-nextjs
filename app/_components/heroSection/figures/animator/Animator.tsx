@@ -19,6 +19,7 @@ export const Animator: FC<Props> = ({ icons }) => {
     <div className={styles.container}>
       <Swiper
         spaceBetween={30}
+        style={{ width: 200 }}
         speed={300}
         modules={[Autoplay]}
         loop={true}
