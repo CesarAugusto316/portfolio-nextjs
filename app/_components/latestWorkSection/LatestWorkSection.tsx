@@ -47,6 +47,7 @@ const PROJECTS: Project[] = [
     image: cometaImag,
     title: 'Cometa',
     description: 'Cometa is a platform that provides the opportunity to engage in new and authentic experiences with like-minded individuals.',
+    frontEndRepo: 'https://github.com/cometa-dani/cometa-mobile-app-ui',
     backEndRepo: 'https://github.com/cometa-dani/cometa-api-v2',
     liveUrl: 'https://4qkgc3d8fp.eu-west-3.awsapprunner.com/api/v1/world-cities',
     id: 9
