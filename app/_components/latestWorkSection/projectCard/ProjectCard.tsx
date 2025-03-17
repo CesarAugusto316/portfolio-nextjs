@@ -7,7 +7,6 @@ import { Project } from '../LatestWorkSection';
 import styles from './projectCard.module.scss';
 import rocketIcon from '@/assets/icons/rocket.svg';
 import githubIcon from '@/assets/icons/github.svg';
-// import downloadIcon from '@/assets/icons/download-solid.svg';
 
 
 interface Props {
@@ -24,18 +23,20 @@ export const ProjectCard: FC<Props> = ({ project }) => {
 
         <div className={styles.bottom}>
           <div className={styles.buttons}>
-            <a href={project.repoUrl} target="_blank">
-              <span>Front end</span>
-              <Image height={23} className={styles.icon} src={githubIcon} alt="github-icon" />
-            </a>
+            {project.frontEndRepo && (
+              <a href={project.frontEndRepo} target="_blank">
+                <span>Front end</span>
+                <Image height={23} className={styles.icon} src={githubIcon} alt="github-icon" />
+              </a>
+            )}
             <a href={project.liveUrl} target="_blank">
               <span>Visit</span>
               <Image height={23} className={styles.icon} src={rocketIcon} alt="github-icon" />
             </a>
           </div>
-          {project.repoUrl2 && (
+          {project.backEndRepo && (
             <div className={styles.buttons}>
-              <a href={project.repoUrl2} target="_blank">
+              <a href={project.backEndRepo} target="_blank">
                 <span>Back end</span>
                 <Image height={23} className={styles.icon} src={githubIcon} alt="github-icon" />
               </a>

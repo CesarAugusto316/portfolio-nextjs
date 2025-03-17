@@ -18,8 +18,8 @@ export type Project = {
   image?: StaticImageData,
   title: string,
   description: string,
-  repoUrl?: string,
-  repoUrl2?: string,
+  frontEndRepo?: string,
+  backEndRepo?: string,
   liveUrl: string,
   fileUrl?: string,
   id: number
@@ -30,8 +30,8 @@ const PROJECTS: Project[] = [
     image: vlgLandingDashboard,
     title: 'VLG Dashboard',
     description: 'comprehensive logistics solutions, specializing in  import and export of air, sea, and land cargo, delivering services with excellence, integrity, and commitment.',
-    repoUrl: 'https://gitlab.com/larnu-group/larnu-web-app',
-    repoUrl2: 'sss',
+    frontEndRepo: 'https://gitlab.com/larnu-group/larnu-web-app',
+    backEndRepo: 'sss',
     liveUrl: 'https://admin-qa.victorialine.com/',
     id: 2
   },
@@ -39,7 +39,7 @@ const PROJECTS: Project[] = [
     image: vlgLandingPage,
     title: 'VLG Landing Page',
     description: 'comprehensive logistics solutions, specializing in  import and export of air, sea, and land cargo, delivering services with excellence, integrity, and commitment.',
-    repoUrl: 'https://gitlab.com/victoria-line-group/landing-page',
+    frontEndRepo: 'https://gitlab.com/victoria-line-group/landing-page',
     liveUrl: 'https://www.victorialine.com/',
     fileUrl: '/code/vlg-landing-page.zip',
     id: 1
@@ -48,7 +48,7 @@ const PROJECTS: Project[] = [
     image: cometaImag,
     title: 'Cometa',
     description: 'Cometa is a platform that provides the opportunity to engage in new and authentic experiences with like-minded individuals. Our goal is to foster an empowering community of people',
-    repoUrl2: 'https://4qkgc3d8fp.eu-west-3.awsapprunner.com/api/v1',
+    backEndRepo: 'https://4qkgc3d8fp.eu-west-3.awsapprunner.com/api/v1',
     liveUrl: 'https://4qkgc3d8fp.eu-west-3.awsapprunner.com/api/v1',
     id: 9
   },
@@ -56,8 +56,8 @@ const PROJECTS: Project[] = [
     image: cortevaImag,
     title: 'Corteva',
     description: 'Corteva Agriscience is a global pure-play agriculture company that combines industry-leading innovation, high-touch customer engagement and operational execution.',
-    repoUrl: 'https://gitlab.com/larnu-group/larnu-web-app',
-    repoUrl2: 'sss',
+    frontEndRepo: 'https://gitlab.com/larnu-group/larnu-web-app',
+    backEndRepo: 'sss',
     liveUrl: 'https://admin-qa.victorialine.com/',
     id: 8
   },
@@ -65,7 +65,7 @@ const PROJECTS: Project[] = [
     image: larnUImg0,
     title: 'LarnU',
     description: 'Our unique approach seamlessly combines data, design, and technology to empower individuals to master languages effectively by simulating real-life conversations',
-    repoUrl: 'https://gitlab.com/larnu-group/larnu-web-app',
+    frontEndRepo: 'https://gitlab.com/larnu-group/larnu-web-app',
     liveUrl: 'https://dev.larnu.app/',
     id: 3
   },
@@ -73,7 +73,7 @@ const PROJECTS: Project[] = [
     image: quizifyImg0,
     title: 'Quizify',
     description: 'Quizify revolutionizes the learning experience with its proven methodology enhanced by gamification, allowing you to master any subject with ease.',
-    repoUrl: 'https://gitlab.com/quizify/quiz-gpt/web',
+    frontEndRepo: 'https://gitlab.com/quizify/quiz-gpt/web',
     liveUrl: 'https://quizify.com/',
     id: 4
   },
@@ -81,7 +81,7 @@ const PROJECTS: Project[] = [
     image: ecomerceImg1,
     title: 'E-commerce App',
     description: 'With Modern design, animations, using a CMS, all advanced cart functionalities, and most importantly the complete integration with Stripe',
-    repoUrl: 'https://github.com/CesarAugusto316/ecommerce-next-sanity',
+    frontEndRepo: 'https://github.com/CesarAugusto316/ecommerce-next-sanity',
     liveUrl: 'https://ecommerce-next-sanity-sigma.vercel.app/',
     id: 5
   },
