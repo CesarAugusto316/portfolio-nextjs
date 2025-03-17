@@ -6,6 +6,8 @@ import styles from './latestWorkSection.module.scss';
 import larnUImg0 from '@/assets/projects/larnu0.png';
 import quizifyImg0 from '@/assets/projects/quizify.png';
 import ecomerceImg1 from '@/assets/projects/Screenshot (65).png';
+import vlgLandingPage from '@/assets/projects/vlg-landing-page.png';
+import vlgLandingDashboard from '@/assets/projects/vlg-dashboard.png';
 import dotsImg from '@/assets/puntos.png';
 
 
@@ -21,12 +23,28 @@ export type Project = {
 
 const PROJECTS: Project[] = [
   {
+    image: vlgLandingPage,
+    title: 'VLG Landing Page',
+    description: 'Our unique approach seamlessly combines data, design, and technology to empower individuals to master languages effectively by simulating real-life conversations',
+    repoUrl: 'https://gitlab.com/victoria-line-group/landing-page',
+    liveUrl: 'https://www.victorialine.com/',
+    id: 1
+  },
+  {
+    image: vlgLandingDashboard,
+    title: 'LarnU',
+    description: 'Our unique approach seamlessly combines data, design, and technology to empower individuals to master languages effectively by simulating real-life conversations',
+    repoUrl: 'https://gitlab.com/larnu-group/larnu-web-app',
+    liveUrl: 'https://dev.larnu.app/',
+    id: 2
+  },
+  {
     image: larnUImg0,
     title: 'LarnU',
     description: 'Our unique approach seamlessly combines data, design, and technology to empower individuals to master languages effectively by simulating real-life conversations',
     repoUrl: 'https://gitlab.com/larnu-group/larnu-web-app',
     liveUrl: 'https://dev.larnu.app/',
-    id: 1
+    id: 3
   },
   {
     image: quizifyImg0,
@@ -34,7 +52,7 @@ const PROJECTS: Project[] = [
     description: 'Quizify revolutionizes the learning experience with its proven methodology enhanced by gamification, allowing you to master any subject with ease.',
     repoUrl: 'https://gitlab.com/quizify/quiz-gpt/web',
     liveUrl: 'https://quizify.com/',
-    id: 2
+    id: 4
   },
   {
     image: ecomerceImg1,
@@ -42,7 +60,7 @@ const PROJECTS: Project[] = [
     description: 'With Modern design, animations, using a CMS, all advanced cart functionalities, and most importantly the complete integration with Stripe',
     repoUrl: 'https://github.com/CesarAugusto316/ecommerce-next-sanity',
     liveUrl: 'https://ecommerce-next-sanity-sigma.vercel.app/',
-    id: 3
+    id: 5
   },
 ];
 
